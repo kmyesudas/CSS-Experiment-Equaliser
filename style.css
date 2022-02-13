@@ -1,0 +1,218 @@
+body {
+  margin: 0px;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: tan;
+  border-radius: 50%;
+  animation: loading 0.8s ease-in-out infinite;
+}
+.music {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.music div {
+  border-radius: 50px;
+}
+.music .box1 {
+  width: 20px;
+  height: 50px;
+  background-color: slateblue;
+  animation: music 1.5s ease-in-out infinite;
+}
+.music .box2 {
+  width: 20px;
+  height: 50px;
+  background-color: rgb(32, 165, 38);
+  margin-left: 5px;
+  animation: music3 1s ease-in-out infinite;
+}
+.music .box3 {
+  width: 20px;
+  height: 50px;
+  background-color: rgb(182, 150, 44);
+  margin-left: 5px;
+  animation: music 0.9s ease-in-out infinite;
+}
+.music .box4 {
+  width: 20px;
+  height: 50px;
+  background-color: rgb(32, 151, 52);
+  margin-left: 5px;
+  animation: music2 1.2s ease-in-out infinite;
+}
+.music .box5 {
+  width: 20px;
+  height: 50px;
+  background-color: rgb(133, 38, 146);
+  margin-left: 5px;
+  animation: music3 1s ease-in-out infinite;
+}
+.music .box6 {
+  width: 20px;
+  height: 50px;
+  background-color: rgb(170, 202, 29);
+  margin-left: 5px;
+  animation: music 2s ease-in-out infinite;
+}
+.music .box7 {
+  width: 20px;
+  height: 50px;
+  background-color: rgb(235, 18, 47);
+  margin-left: 5px;
+  animation: music3 1s ease-in-out infinite;
+}
+.music .box8 {
+  width: 20px;
+  height: 50px;
+  background-color: slateblue;
+  margin-left: 5px;
+  animation: music 1.6s ease-in-out infinite;
+}
+.music .box9 {
+  width: 20px;
+  height: 50px;
+  background-color: rgb(13, 230, 238);
+  margin-left: 5px;
+  animation: music3 2.5s ease-in-out infinite;
+}
+.music .box10 {
+  width: 20px;
+  height: 50px;
+  background-color: rgb(51, 27, 211);
+  margin-left: 5px;
+  animation: music2 1.3s ease-in-out infinite;
+}
+.hide {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  bottom: 5px;
+}
+@keyframes loading {
+  0% {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+  }
+  10% {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+  20% {
+    width: 150px;
+    height: 150px;
+    background-color: greenyellow;
+  }
+  30% {
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+  }
+  40% {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+  }
+  50% {
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+  }
+  60% {
+    width: 250px;
+    height: 250px;
+    background-color: green;
+  }
+  70% {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+  }
+  80% {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(40, 88, 160);
+  }
+  90% {
+    width: 50px;
+    height: 50px;
+    background-color: silver;
+  }
+  100% {
+    width: 0px;
+    height: 0px;
+    background-color: rosybrown;
+  }
+}
+
+@keyframes music {
+  0% {
+    height: 0px;
+  }
+  25% {
+    height: 20px;
+  }
+  50% {
+    height: 200px;
+  }
+  75% {
+    height: 70px;
+  }
+  100% {
+    height: 0px;
+  }
+}
+
+@keyframes music2 {
+  0% {
+    height: 0px;
+  }
+  25% {
+    height: 80px;
+  }
+  50% {
+    height: 100px;
+  }
+  75% {
+    height: 150px;
+  }
+  100% {
+    height: 50px;
+  }
+}
+@keyframes music3 {
+  0% {
+    height: 50px;
+  }
+  25% {
+    height: 20px;
+  }
+  50% {
+    height: 250px;
+  }
+  75% {
+    height: 0px;
+  }
+  100% {
+    height: 60px;
+  }
+}
